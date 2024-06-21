@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "timezone": "Europe/Amsterdam",
+  "semanticCommits": "enabled",
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Renovate Dashboard 🤖",
+  "commitBody": "Signed-off-by: Sander Timmerman <stimmerman@users.noreply.github.com>",
+  "prBodyTemplate": "{{{header}}}{{{table}}}{{{warnings}}}{{{notes}}}{{{changelogs}}}{{{controls}}}",
+  "suppressNotifications": [
+    "prIgnoreNotification"
+  ],
+  "rebaseWhen": "conflicted",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": "to {{newVersion}}",
+  "commitMessageSuffix": "",
+}
