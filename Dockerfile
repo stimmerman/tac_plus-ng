@@ -1,5 +1,9 @@
 FROM alpine:3.20
-MAINTAINER Sander Timmerman <sander@red9.nl>
+
+LABEL org.opencontainers.image.authors="Sander Timmerman <stimmerman@users.noreply.github.com>"
+LABEL org.opencontainers.image.source="https://github.com/stimmerman/tac_plus-ng"
+LABEL org.opencontainers.image.documentation="https://github.com/stimmerman/tac_plus-ng"
+LABEL org.opencontainers.image.description="TACACS+ container for lab use"
 
 RUN apk add --no-cache \
         build-base \
