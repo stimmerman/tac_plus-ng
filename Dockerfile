@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.24
 
 LABEL org.opencontainers.image.authors="Sander Timmerman <stimmerman@users.noreply.github.com>"
 LABEL org.opencontainers.image.source="https://github.com/stimmerman/tac_plus-ng"
